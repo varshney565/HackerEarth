@@ -53,7 +53,7 @@ inline int lb(pbds &s,int val) {return s.order_of_key(val);}
 /**
  * 
  * Actual code starts here.
- * 
+ *
  * */
 
 const int mod = 1e9+7;
