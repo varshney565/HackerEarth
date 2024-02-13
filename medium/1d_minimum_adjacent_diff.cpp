@@ -58,7 +58,8 @@ void solve() {
     int ans = -1;
     while(l <= r) {
         int mid = l + (r-l)/2ll;
-        vector<int> dp(2);
+        vector<int> dp(2,0);
+        dp[1] = 1;
         for(int i = 1 ; i < n ; i++) {
             // for dp[0]
             vector<int> new_dp(2,k+1);
